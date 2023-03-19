@@ -1,0 +1,166 @@
+.contDiv{
+    width: 400px;
+    height: 700px;
+    background-image: url("../../public/images/tekstura-linii-polosy-polya.jpg");
+    background-position-x: -120px;
+    margin: 20px auto 0;
+    color: #327c76;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 5px #a4a4db;
+    position: relative;
+    border-radius: 7px;
+}
+.contHeader{
+    display: flex;
+    justify-content: space-around;
+    color: darkgray;
+}
+
+.contInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contInput input {
+    width: 30%;
+    outline: none;
+    background-color: #cfb995;
+    padding: 5px;
+}
+
+.contAccount{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.contScore {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    position: sticky;
+    bottom: 2px;
+    z-index: 10;
+    background-color: #ebe576;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px 2px #898484;;
+}
+
+.contScore div{
+    font-size: 30px;
+    color: #4087c5;
+}
+
+.recycleBin{
+   width: 50px;
+    cursor: pointer;
+}
+
+.contFooter{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.content{
+    height: 525px;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar{
+    width: 0;
+}
+
+.buttons{
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: none;
+    color: #00efd1;
+    background-color: #4087c5;
+    box-shadow: 1px 1px 2px 2px #7d6a93;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.contAccountInput{
+    background-color: transparent;
+    border: none;
+    width: 30%;
+    outline: none;
+    color: #327c76;
+    font-size: 20px;
+    padding: 5px 48px;
+    box-sizing: border-box;
+}
+
+.contAccountInputScore{
+    background-color: transparent;
+    width: 30%;
+    color: #327c76;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 5px 27px;
+}
+
+.red{
+    background-color: crimson;
+    padding: 5px 25px;
+    border-radius: 12px;
+    border: none;
+    color: #00efd1;
+    box-shadow: 1px 1px 2px 2px #7d6a93;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 465px){
+
+    .contDiv{
+        width: 300px;
+        height: 600px;
+        background-position-x: -116px;
+        font-size: 17px;
+    }
+
+    .contAccount{
+        margin-bottom: 20px;
+    }
+
+    .contScore div{
+        font-size: 22px;
+    }
+
+    .recycleBin{
+        width: 40px;
+    }
+
+    .buttons{
+        padding: 4px 20px;
+        font-size: 16px;
+    }
+
+    .content{
+        height: 450px;
+        overflow: auto;
+    }
+
+    .contAccountInput{
+        font-size: 17px;
+        padding: 5px 35px;
+    }
+
+    .contAccountSpanScore{
+        font-size: 17px;
+        padding: 0 17px;
+    }
+}
