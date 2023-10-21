@@ -1,5 +1,6 @@
 import styles from "../css/bazarblot.module.css"
 import {useState,useEffect} from "react";
+
 const BazarBlot = () => {
 
     const [value, setValue] = useState({

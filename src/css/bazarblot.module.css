@@ -6,7 +6,8 @@
     margin: 20px auto 0;
     color: #327c76;
     padding: 10px;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bolder;
     box-shadow: 1px 1px 5px 5px #a4a4db;
     position: relative;
     border-radius: 7px;
@@ -96,9 +97,10 @@
     width: 30%;
     outline: none;
     color: #327c76;
-    font-size: 20px;
-    padding: 5px 48px;
+    font-size: 21px;
+    padding: 5px 37px;
     box-sizing: border-box;
+    font-weight: bolder;
 }
 
 .contAccountInputScore{
@@ -107,9 +109,10 @@
     color: #327c76;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 21px;
     box-sizing: border-box;
     padding: 5px 27px;
+    font-weight: bolder;
 }
 
 .red{
@@ -162,5 +165,9 @@
     .contAccountSpanScore{
         font-size: 17px;
         padding: 0 17px;
+    }
+    .red {
+        padding: 4px 20px;
+        font-size: 16px;
     }
 }
